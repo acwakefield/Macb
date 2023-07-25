@@ -2,7 +2,7 @@ import random
 #                                       Functions
 # Function Greeting
 def greeting():
-    greet = "Hello, my name is Mac.  How may I help you?"
+    greet = "Hello, my name is MacB.  How may I help you?"
     return (greet)
 
 #dice roll function for multiple uses including games.
@@ -13,14 +13,14 @@ def dice(sides):
 
 #                                       Define Variables
 userInput = ""
-runMac = False
+runMac = True
 
 # Bootup Greeting add time check later for good morning or good evening etc
 print (greeting())
 
 
 #                                       Main Interface Loop
-while runMac == False:
+while runMac == True:
     userInput = input(">")
     userInput = userInput.lower()
     if "dice" in userInput or "roll" in userInput:
